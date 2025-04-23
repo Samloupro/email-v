@@ -1,0 +1,7 @@
+[build]
+  # Installe les dépendances Python depuis le requirements.txt dans le dossier mailscout-main
+  install = "pip install -r mailscout-main/requirements.txt"
+
+[run]
+  # Démarre l’application en utilisant la commande définie dans le Procfile
+  command = "python -m EmailPulsify.__main__"
